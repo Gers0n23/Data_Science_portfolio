@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m http.server:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(curl:*)",
+      "Bash(timeout /t 2 /nobreak)",
+      "Bash(node --version:*)",
+      "Bash(node:*)",
+      "Bash(timeout /t 1 /nobreak)",
+      "Bash(powershell -Command:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
